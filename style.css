@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincontainer {
+    width: 2512.88px;
+    height: 1463.56px;
+    background-image: url(Decoration.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.first {
+    color: #0099FF;
+    position: fixed;
+    left: 296px;
+    top: 234px;
+}
+
+.container {
+    width: 1920px;
+    height: 960px;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    width: 1920px;
+    height: 812px;
+    border-radius: 24px 24px 0 0;
+    position: absolute;
+    justify-content: space-between;
+    background: linear-gradient(284.11deg, #0099FF 6.13%, #E41C77 94.81%);
+
+}
+
+.left {
+    width: 987px;
+    height: 812px;
+    position: relative;
+    display: flex;
+}
+
+.left img {
+    position: relative;
+    top: 80px;
+    left: 220px;
+}
+
+.explain {
+    width: 1061px;
+    height: 200px;
+    position: absolute;
+    left: 220px;
+    top: 329px;
+
+}
+
+.welcome {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 100px;
+    letter-spacing: -1.5px;
+
+}
+
+.indigo {
+    font-family: 'Titillium Web', sans-serif;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+    letter-spacing: -1.5px;
+    position: fixed;
+
+}
+
+
+.btn {
+    width: 641px;
+    height: 130px;
+    position: absolute;
+    left: 220px;
+    top: 601px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-size: 700;
+    line-height: 33px;
+    color: #29275F;
+
+}
+
+.a1 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.a2 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.a3 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.a4 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.a5 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.a6 {
+    width: auto;
+    height: 57px;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+.right {
+    width: 933px;
+    height: 812px;
+    position: relative;
+    place-self: end;
+
+}
+
+.footer {
+    grid-area: footer;
+    width: 1920px;
+    height: 148px;
+    align-self: end;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.glad {
+    width: 712px;
+    height: 74px;
+    position: absolute;
+    left: 220px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #29275F;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.glad a {
+    color: #E41C77;
+}
+
+.version {
+    position: absolute;
+    left: 1527px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #29275F;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+
+
