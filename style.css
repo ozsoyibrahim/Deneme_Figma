@@ -46,6 +46,7 @@ body {
     border-radius: 24px 24px 0 0;
     position: absolute;
     justify-content: space-between;
+    mix-blend-mode: hard-light;
     background: linear-gradient(284.11deg, #0099FF 6.13%, #E41C77 94.81%);
 
 }
@@ -103,7 +104,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
+
+
 
 .btn button {
     font-family: 'Open Sans', sans-serif;
@@ -111,6 +115,7 @@ body {
     font-size: 700;
     line-height: 33px;
     color: #29275F;
+    cursor: pointer;
 
 }
 
@@ -119,6 +124,7 @@ body {
     height: 57px;
     border-radius: 8px;
     padding: 12px 16px;
+    
 }
 
 .a2 {
